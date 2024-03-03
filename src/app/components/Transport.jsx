@@ -9,7 +9,7 @@ function Transport() {
       <buttons className ='px-3 py-2 rounded-md mr-4 bg-[rgba(233,229,248,1)] '>  Many more things ✨ </buttons>
       </div>
      
-      <h1 className='pt-10 lg:text-4xl text-xl font-black'>Just enought to get you going<br/> everyday</h1>
+      <h1 className='pt-10 lg:text-4xl text-xl font-black'>Just enough to get you going<br/> everyday</h1>
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-5 text-left'>
         <div className=''>
