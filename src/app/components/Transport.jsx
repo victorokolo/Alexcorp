@@ -14,6 +14,7 @@ function Transport() {
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-5 text-left'>
         <div className=''>
           <Image src ='/images/section.svg'
+          className='w-[500px]'
           height={271}
           width={386}
           />
@@ -28,14 +29,15 @@ function Transport() {
         <p className='font-normal text-base'>Lorem phasellus risus dictum eu nunc dignissim viverra sodales amet.</p>
       </div>
         <Image src ='/images/section (1).svg'
-        className=''
+        className='w-[500px]'
         height={271}
         width={386}
         />
  
       </div>
-      <div className='pt-5 lg:pt-0'>
+      <div className='pt-5 lg:pt-0 w-auto'>
       <Image src ='/images/section (2).svg'
+      className='w-[500px]'
       height={271}
       width={386}
       />

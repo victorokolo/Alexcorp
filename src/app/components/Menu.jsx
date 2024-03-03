@@ -29,7 +29,7 @@ export default function Home() {
               quidate
               />
                 </Link>
-              <div className="md:hidden">
+              <div className="lg:hidden">
               
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
