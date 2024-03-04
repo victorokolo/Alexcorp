@@ -7,9 +7,9 @@ function Footer() {
         <div className='text-center pb-20'> 
             <h1>Subscribe To Our Newsletter</h1>        
         </div>
-        <div className="items-center px-4 flex flex-row justify-center" >
+        <div className="items-center px-2 flex flex-row justify-center" >
             <div className="relative">
-                <div className="absolute top-3 left-3 items-center">
+                <div className="absolute  items-center">
                 </div>
                 <input
                     type="text"
@@ -18,7 +18,7 @@ function Footer() {
                 />
                   </div>
                   <div>
-                  <buttons className =' px-5 py-3 w-full sm:w-fit rounded-xl mr-4 bg-[rgba(0,0,0,1)] text-white '>  Subscribe </buttons>
+                  <buttons className =' px-3 py-3 w-full sm:w-fit rounded-xl mr-4 lg:mr-0 bg-[rgba(0,0,0,1)] text-white '>  Subscribe </buttons>
                   </div>
 </div>
         <div className=''>
