@@ -1,6 +1,6 @@
 
 import HeroSection from "./components/HeroSection"
-import Menu from "./components/Menu"
+
 
 import Works from "./components/Works"
 import Transport from "./components/Transport"
@@ -13,7 +13,7 @@ import AboutSection from "./components/AboutSection"
 export default function Home() {
   return (
     <main className="flex  flex-col bg-white ">
-    <Menu/>
+  
     <div className=" mt-24 mx-auto  py-4  ">
     <HeroSection/>
     </div>

@@ -74,7 +74,7 @@ export default function Home() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className=" lg:pl-80 pl-3 items-center justify-center font-medium md:text-sm lg:font-medium  space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className=" lg:pl-80 items-center justify-center font-medium md:text-sm lg:font-medium  space-y-8 md:flex md:space-x-6 md:space-y-0">
                 
                 <li className="text-black  text-base font-bold">
                   <Link href="/blogs">
