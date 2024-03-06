@@ -3,11 +3,11 @@ import React from 'react'
 
 function Safe() {
   return (
-    <div className=' container mx-auto px-12 py-4  '>
+    <div className=' container mx-auto  py-4  '>
         <div className='pb-20  mt-24 mx-auto'>
   
-            <h1 className='lg:text-4xl text-2xl font-bold text-center'>Safe & Convienet Transaction</h1>
-            <p className='lg:px-72  container  mx-auto px-12 py-4 px-5 pt-5 lg:text-xl text-base font-medium text-[rgba(154,151,151,1)]'>Lorem ipsum dolor sit amet consectetur. Rhoncus adipiscing neque vulputate hac facilisis eleifend. </p>
+            <h1 className='lg:text-4xl text-2xl font-bold text-center px-6'>Safe & Convienet Transaction</h1>
+            <p className='lg:px-72  container  mx-auto  py-4 px-5 pt-5 lg:text-xl text-base font-medium text-[rgba(154,151,151,1)]'>Lorem ipsum dolor sit amet consectetur. Rhoncus adipiscing neque vulputate hac facilisis eleifend. </p>
         </div>
         <div className=' grid grid-cols-1 lg:grid-cols-4 pt-10 justify-center'>       
             <div className='rounded-md  pl-5 px-12'>

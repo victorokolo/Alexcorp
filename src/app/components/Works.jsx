@@ -9,20 +9,38 @@ function Works() {
         <h1 className='pt-5 text-4xl font-bold'> How it works</h1>
         </div>
 
-        <div className='grid grid-cols-1 lg:grid-cols-3 '>
-        <div className='text-center'>
+        <div className='flex flex-col lg:flex-row  gap-x-28 lg:gap-x-2 '>
+        <div className='text-center '>
         <button  className='rounded-full bg-black text-white  px-6 py-3 ml-5 lg:ml-0 '  >1 </button>
+       
+       
+       
         <h1 className='pt-5 pb-3 text-2xl font-semibold'>Register</h1>
            <p className='text-center px-12 text-sm font-normal'>Download Alex  from the
            apple app store or google play
            store</p>
         </div>
+        <div className='flex justify-end lg:visible invisible'>
+        <Image src ='images/Vector 42.svg'
+        className='pb-40 pt-5'
+        width={202}
+        height={50}
+        />
+        </div>
         <div className='pt-5 lg:pt-0 text-center'>
+        
         <button  className='rounded-full bg-black text-white  px-6 py-3 ml-5 lg:ml-0 '  >2 </button>
         <h1  className='pt-5 pb-3 text-2xl font-semibold'>Verify</h1>
            <p className='text-center px-12 text-sm font-normal'>Complete the sign up
            process, confirm your phone
            number</p>
+        </div>
+        <div className='flex justify-end lg:visible invisible'>
+        <Image src ='images/Vector 42.svg'
+        className='pb-40 pt-5'
+        width={202}
+        height={50}
+        />
         </div>
         <div className='text-center pt-5 lg:pt-0'>
         <button  className='rounded-full bg-black text-white  px-6 py-3 ml-5 lg:ml-0 '  >3 </button>

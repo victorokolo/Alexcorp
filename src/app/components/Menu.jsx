@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="w-full fixed  bg-white ">
-        <div className=" px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="  px-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div className=''>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link href="#">
@@ -29,7 +29,7 @@ export default function Home() {
               quidate
               />
                 </Link>
-              <div className="lg:hidden">
+              <div className="md:hidden">
               
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -74,7 +74,7 @@ export default function Home() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className=" lg:pl-80 items-center justify-center font-medium md:text-sm lg:font-medium  space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className=" lg:pl-96 items-center justify-center font-medium md:text-sm lg:font-medium mx-auto space-y-8 md:flex md:space-x-6 md:space-y-0">
                 
                 <li className="text-black  text-base font-bold">
                   <Link href="/blogs">
